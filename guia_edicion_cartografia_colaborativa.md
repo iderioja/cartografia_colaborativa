@@ -65,6 +65,8 @@ Una vez duplicado el `REPOSITORIO PRINCIPAL` en tu propia cuenta GitHub, ya pued
 
 GitHub permite visualizar en forma de mapa los ficheros de datos geográficos de cualquier repositorio, siempre y cuando estos se encuentren almacenados en el formato **"Geojson"**.
 
+![Alt text](/img_guia/img_mapa_municipios.jpg "Esto no es un visualizador incrustado, es solo una imagen del Mapa de municipios de La Rioja (España)")
+
 Ahora... ¡pruébalo!. Si pulsas sobre uno de los ficheros geojson de `TU REPOSITORIO GITHUB`, comprobarás que puedes ver su contenido sobre un mapa y que el visualizador geográfico te ofrece la opción de `"Editar"`.
 
 Esta opción te permite modificar alfanuméricamente los datos de un fichero geográfico, aunque editar así resulta extremadamente complicado y desesperante, pero... no te desanimes tan pronto, ya que desde hace muy poco tiempo GitHub nos ofrece la posibilidad de realizar una edición geográfica "on line" conectándonos a la url http://geojson.io
@@ -81,6 +83,8 @@ Pero si prefieres editar los ficheros geográficos localmente en tu equipo y apr
 #### 5 - Instalación local del cliente Git
 
 Si eres un tipo intrépido, amante del riesgo y has optado por la edición local, ¡enhorabuena!, pero antes de comenzar ten en cuenta que es imprescindible instalar en tu equipo la aplicación "Git". En http://git-scm.com/downloads puedes encontrar la última versión para tu sistema operativo.
+
+![Alt text](/img_guia/img_git_download_page.jpg "Imagen de la página de descarga de Git")
 
 #### 6. Hacer una copia (clon) de TU REPOSITORIO GITHUB en tu equipo local
  
@@ -130,6 +134,7 @@ El blog http://aprendegit.com/ puede ser también una fuente de información de 
 Sigamos... una vez hayas concluido tus modificaciones en los ficheros geográficos de tu equipo local y tu Git local se haya hecho eco de ellos mediante comandos `add` y `commit`, puedes subir tu trabajo de `TU REPOSITORIO LOCAL` a `TU REPOSITORIO GITHUB`.
 
 Te explicamos brevemente como hacerlo desde la pantalla de comandos:
+
 ```
 > git status
 (Este comando te informa del estado de tus ficheros en tu repositorio local)
@@ -164,13 +169,13 @@ Desde estas páginas te animamos a participar en nuestro proyecto. La cartograf�
 
 No nos queremos despedir sin contarte un truco: Todos los mapas que tengas en `TU REPOSITORIO GITHUB` los puedes incrustar en tus páginas web simplemente añadiendo una sentencia con esta sintaxis:
 
-```
+```html
 <script src="https://embed.github.com/view/geojson/<username>/<repo>/<ref>/<path_to_file>"></script>
 ````
 
 Puedes probar como funciona, pegando el siguiente código en un archivo de texto y guardándolo con la extensión .html 
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
