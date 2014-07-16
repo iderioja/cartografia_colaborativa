@@ -1,4 +1,4 @@
-﻿# [![Icono](http://www.iderioja.larioja.org/imagenes/logo_iderioja_56x70.gif)](http://www.iderioja.org)     [Cartografía colaborativa](https://github.com/iderioja/cartografia_colaborativa)
+﻿## [![Icono](http://www.iderioja.larioja.org/imagenes/logo_iderioja_56x70.gif)](http://www.iderioja.org)     [Cartografía colaborativa](https://github.com/iderioja/cartografia_colaborativa)
 
 Repositorio creado para recoger datos geográficos generados por los usuarios de forma colaborativa.
 
