@@ -10,7 +10,7 @@ Google Chrome ofrece la [extensión geojson.io](https://chrome.google.com/websto
 
 Los datos geográficos de interés para el Gobierno de La Rioja podrán pasar a formar parte de la base de datos espacial IDErioja, siempre y cuando cumplan las condiciones métricas y de exactitud necesarias para la escala de referencia.
 
-Para que la participación en este proyecto te resulte un poco más fácil, puedes consultar la **["Guía para la edición colaborativa de la cartografía del Gobierno de La Rioja"](/guia_edicion_cartografia_colaborativa.md)** que desde este mismo repositorio ponemos a tu disposición.
+Para que la participación en este proyecto te resulte un poco más fácil, puedes consultar la **["Guía para la edición colaborativa de la cartografía del Gobierno de La Rioja"](https://github.com/iderioja/cartografia_colaborativa/blob/master/guia_edicion_cartografia_colaborativa.md)** que desde este mismo repositorio ponemos a tu disposición.
 
 
 El Equipo Técnico IDErioja
